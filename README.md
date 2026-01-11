@@ -9,7 +9,7 @@ This project implements a **Conversational AI Agent** for AutoStream, a fictiona
 - Detect high-intent users and capture lead details
 - Trigger a mock backend function (`mock_lead_capture`) after collecting all necessary information
 
----
+----
 
 ## Features
 
@@ -33,8 +33,13 @@ This project implements a **Conversational AI Agent** for AutoStream, a fictiona
    - Maintains memory across multiple turns
    - Separates `user_messages` and `agent_messages`
 
----
+----
 
+## Demo Video
+
+[![Watch Demo]](demo.mp4)
+
+----
 ## Requirements
 
 - Python 3.9+
@@ -61,7 +66,38 @@ openai
 
 ----
 
-## AutoStream Agent — Folder Structure
+## Setup & Virtual Environment
+
+**1. Create a virtual environment:**
+```bash
+python3 -m venv venv
+```
+
+**2. Activate the environment:**
+    * macOS/Linux:
+```bash
+    source venv/bin/activate
+```
+    * Windows:
+```bash
+    venv\Scripts\activate
+```
+
+**3. Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+**4. Run the agent:**
+```bash
+python main.py
+```
+- Type messages as the user
+- Type `exit` to quit
+
+----
+
+## Project Structure
 
 ```graphsql
 autostream-agent/
