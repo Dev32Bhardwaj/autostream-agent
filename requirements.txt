@@ -1,0 +1,6 @@
+langchain==1.2.3
+langgraph==1.0.5
+langchain_huggingface
+langchain_community
+faiss-cpu
+openai
