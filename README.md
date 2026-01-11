@@ -74,13 +74,13 @@ python3 -m venv venv
 ```
 
 **2. Activate the environment:**
-    * macOS/Linux:
+* macOS/Linux:
 ```bash
-    source venv/bin/activate
+source venv/bin/activate
 ```
-    * Windows:
+* Windows:
 ```bash
-    venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 **3. Install dependencies:**
